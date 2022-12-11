@@ -1,0 +1,270 @@
+.projects{
+    height: fit-content;
+    background-color: var(--navy);
+    width: 100%;
+    padding: 2rem 20rem;
+}
+
+.projectHeading {
+    font-weight: 600;
+    font-family: var(--font-mono);
+    color: var(--green);
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.projectHeading::before{
+    content: '03. ';
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: 1.2rem;
+    margin-right: 8px;
+}
+.projectHeading::after{
+    content: '';
+    display: block;
+    width: 200px;
+    margin-left: 1rem;
+    height: 0.5px;
+    background: var(--green);
+}
+
+
+hr{
+    display: none;
+}
+
+
+
+
+
+
+/* project section css  */
+.project{
+    
+    position: relative;
+    margin: 3rem 0;
+}
+
+.project_image{
+    
+    width: 70%;
+    height: 20rem;
+    background-size: 32rem;
+    border-radius: 5px;
+    position: relative;
+    z-index: 5;
+
+}
+
+
+.project_image img{
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: multiply;
+    filter: grayscale(100%) contrast(1) brightness(90%);
+    border-radius: 5px;
+}
+
+.project_image_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: var(--lightest-navy);
+    transition: background-color 0.5s ;
+}
+
+.project_image_overlay:hover{
+    background-color: transparent;
+}
+
+
+.project_content{
+    font-family: var(--font-poppins);
+    font-size: 1rem;
+    color: var(--slate);
+    font-weight: 900;
+    text-align: right;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+
+.project_content_header h1{
+    color: var(--lightest-slate);
+    position: relative;
+    z-index: 6;
+}
+
+.project_content_text{
+    width: 60%;
+    background: var(--light-navy);
+    height: 7rem;
+    padding: 2rem 1rem;
+    border-radius: 6px;
+    height: fit-content;
+    text-align: right;
+    position: relative;
+    z-index: 6;
+    
+}
+
+
+.project_content_techs_heading{
+    font-family: var(--font-poppins);
+}
+
+.project_content_techs {
+    margin-top: 1rem;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+
+    position: relative;
+    z-index: 6;
+}
+.techs{
+    margin: 0 1rem;
+    color: var(--green);
+    font-family: var(--font-mono);
+}
+.techs:first-child{
+    margin-left: 0;
+}
+
+.project_content_icons{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    z-index: 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media querires  */
+
+
+@media screen and (max-width: 1500px) {
+    .projects{
+        padding: 5rem 15rem;
+    }
+}
+@media screen and (max-width: 1148px) {
+    .projects{
+        padding: 5rem 10rem;
+    }
+}
+@media screen and (max-width: 900px) {
+
+    .projects{
+        padding: 5rem 5rem;
+        height: fit-content
+    }
+    
+    .project_content{
+        right: 0.6rem;
+    }
+}
+
+@media screen and (max-width : 800px){
+    .project{
+        position: static;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    hr{
+        display: block;
+        width: 100%;
+    }
+    
+
+    .project_image{
+        margin-top: 1rem;
+        width: 100%;
+        height: 50vw;
+    }
+    
+    
+    .project_content{
+        display: flex;
+        position: static;
+        width: 100%;
+        left: 1rem;
+        text-align: left;
+        align-items: flex-start;
+        align-self: flex-start;
+    }
+
+    .techs{
+        margin: 0.2rem 0.3rem;
+    }
+    .project_content_header{
+        margin-top: 1rem;
+    }
+
+    .project_content_text{
+        background-color: transparent;
+        text-align: left;
+        padding: 0;
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    
+    .project_content_techs{
+        margin-top: 1.5rem;
+        justify-content: left;
+        width: 100%;
+        
+    }
+    
+    .project_content_icons{
+        justify-content: left;
+    }
+}       
+
+@media screen and (max-width: 525px) {
+
+    .projects{
+        padding: 5rem 1rem;
+        
+    }
+
+    
+}
+@media screen and (max-width: 450px) {
+
+
+    
+}
+
+
+@media screen and (max-width: 280px) {
+    
+}

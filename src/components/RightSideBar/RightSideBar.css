@@ -1,0 +1,44 @@
+
+
+.rightbar{
+    
+    position: fixed;
+    bottom: 3.5rem;
+    right: -3rem;
+    font-family: var(--font-mono);
+    letter-spacing: 0.1em;
+}
+.email{
+    color: var(--slate);
+    font-size: var(--fz-xxs);
+    transform: rotate(90deg);
+    transition: transform 0.4s;
+}
+
+.email:hover{
+    transform: rotate(90deg) translateX(-7px);
+    color: var(--green);
+}
+.vertical_line{
+    content: "";
+    display: block;
+    
+    height: 90px;
+    width: 1px;
+    margin-top: 6rem;
+    background-color: var(--light-slate);
+    /* transform: rotate(90deg); */
+}
+
+
+.mailToBtn{
+    text-decoration: none;
+}
+
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

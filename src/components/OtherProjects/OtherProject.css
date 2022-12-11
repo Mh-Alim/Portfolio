@@ -1,0 +1,162 @@
+.otherProjects{
+    width: 100%;
+    height: fit-content;
+    background-color: var(--navy);
+    padding: 5rem 5rem;
+    
+}
+
+.other_project_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.otherProjectsHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--green);
+    font-family: var(--font-mono);
+}
+
+
+.otherProjectsHeading::after{
+    content: '';
+    display: block;
+    width: 200px;
+    margin-left: 1rem;
+    height: 0.5px;
+    background: var(--green);
+}
+
+ 
+/* otherProject component css starts from here  */
+
+.otherProject{
+    margin: 2rem 2rem;
+    width: 23rem;
+    height: 23rem;
+    background-color: var(--light-navy);
+    color: var(--slate);
+    font-family: var(--font-poppins);
+    font-weight: 700;
+    padding: 2rem 2rem;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+
+.otherProject_top_icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.otherProject_heading{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.otherProject_about{
+    text-align: center;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding-right: 0.2rem;
+    height: 8rem;
+}
+
+.otherProject_about::-webkit-scrollbar{
+    width: 0.1vw;
+    background-color: var(--navy);
+    
+}
+.otherProject_about::-webkit-scrollbar-thumb{
+    background-color: var(--lightest-navy);
+
+}
+
+.otherProject_techs{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    /* left: 0; */
+    
+}
+
+.otherProject_techs::-webkit-scrollbar{
+    height: 1px;
+    background-color: var(--navy);
+    
+}
+.otherProject_techs::-webkit-scrollbar-thumb{
+    background-color: var(--lightest-navy);
+
+}
+.other_tech{
+    margin: 0 1rem;
+    font-size: 0.8rem;
+    color: var(--green);
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query  */
+@media screen and (max-width: 1000px) {
+    
+    .otherProjects{
+        padding: 5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .otherProject{
+        width: 100%;
+        height: 30rem;
+        margin: 2rem 0;
+    }
+    .otherProject_about{
+        height: 16rem;
+    }
+}

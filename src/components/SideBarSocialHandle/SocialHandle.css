@@ -1,0 +1,48 @@
+svg{
+    width: 20px;
+    height: 20px;
+    margin: 10px 0;
+}
+
+.socialNavbar{
+    width: 6rem;
+    height: 50vh;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#vline::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: var(--light-slate);
+}
+
+.svgs{
+    color: var(--light-slate);
+    transition: transform 0.5s;
+}
+.svgs:hover{
+    color: var(--green);
+    transform: translateY(-5px);
+}
+.active{
+    color: var(--green);
+}
+
+@media screen and (max-width: 730px) {
+    .socialNavbar{
+        display: none;
+    }
+    .rightbar{
+        display: none;
+    }
+}
