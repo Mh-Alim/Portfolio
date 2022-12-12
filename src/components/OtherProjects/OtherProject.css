@@ -36,7 +36,7 @@
 /* otherProject component css starts from here  */
 
 .otherProject{
-    margin: 2rem 2rem;
+    margin: 0.8rem 0.6rem;
     width: 23rem;
     height: 23rem;
     background-color: var(--light-navy);
@@ -49,8 +49,13 @@
     display: flex;
     flex-direction: column;
     border-radius: 5px;
+    transform: translateY(0);
+    transition: transform 0.4s;
 }
 
+.otherProject:hover{
+    transform: translateY(-10px);
+}   
 
 .otherProject_top_icons{
     display: flex;

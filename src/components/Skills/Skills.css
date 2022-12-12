@@ -4,7 +4,7 @@
     background: var(--navy);
     font-family: var(--font-mono);
     color: var(--slate);
-    padding: 2rem 20rem;
+    padding: 5rem 20rem;
 }
 
 .white{
@@ -41,15 +41,16 @@
     flex-wrap: wrap;
 }
 .skillsIcons img{
-    width: 5rem;
-    height: 5rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 .skill{
 
     display: inline-block;
     text-align: center;
-    margin: 2rem 7%;
+    margin: 2rem 5%;
+    font-size: 0.8rem;
 }
 
 

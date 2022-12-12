@@ -18,18 +18,18 @@ const Skills = () => {
         <div className="skillsIcons white">
             
             <div className="html skill">
-                <Tilt glareEnable={true} ><img src={html} alt="" /></Tilt>
+                <Tilt ><img src={html} alt="" /></Tilt>
                 <h4>HTML</h4>
             </div>
             
             
             <div className="css skill">
-                <Tilt glareEnable={true}><img src={css} alt="" /></Tilt>
+                <Tilt ><img src={css} alt="" /></Tilt>
                 <h4>CSS</h4>
             </div>
           
             <div className="js skill">
-                <Tilt glareEnable={true}><img src={js} alt="" /></Tilt>
+                <Tilt ><img src={js} alt="" /></Tilt>
                 <h4>JS</h4>
             </div>
            
@@ -39,17 +39,17 @@ const Skills = () => {
             </div>
            
             <div className="node skill">
-                <Tilt glareEnable={true}><img src={node} alt="" /></Tilt>
+                <Tilt ><img src={node} alt="" /></Tilt>
                 <h4>NODE JS</h4>
             </div>
          
             <div className="vscode skill">
-                <Tilt glareEnable={true}><img src={vsCode} alt="" /></Tilt>
+                <Tilt ><img src={vsCode} alt="" /></Tilt>
                 <h4>VS CODE</h4>
             </div>
            
             <div className="git skill">
-                <Tilt glareEnable={true}><img src={git} alt="" /></Tilt>
+                <Tilt ><img src={git} alt="" /></Tilt>
                 <h4>GIT</h4>
             </div>
          

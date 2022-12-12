@@ -121,7 +121,9 @@
         display: block;
         width: ;
     } */
-    .nav_resume{
+    
+
+    .nav_elements .nav_resume {
         margin: 3rem 0;
         padding: 1rem 4rem;
     }
@@ -131,4 +133,18 @@
 
   
     
+}
+
+
+@media screen and (max-width: 437px) {
+    .nav_elements .nav_resume {
+        margin: 3rem 0;
+        padding: 1rem 2rem;
+    }
+}
+@media screen and (max-width: 280px) {
+    .nav_elements .nav_resume {
+        margin: 3rem 0;
+        padding: 0.5rem 0.5rem;
+    }
 }

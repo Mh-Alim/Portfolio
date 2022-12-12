@@ -4,7 +4,7 @@
     background: var(--navy);
     font-family: var(--font-mono);
     color: var(--slate);
-    padding: 0rem 20rem;
+    padding: 4rem 20rem;
 }
 
 .heading{
@@ -15,6 +15,7 @@
     display: flex;
     align-items: center;
     padding: 2rem 0;
+    font-family: var(--font-mono);
 
 }
 
@@ -107,18 +108,18 @@
 
 @media screen and (max-width: 1500px) {
     .about{
-        padding: 0rem 15rem;
+        padding: 4rem 15rem;
     }
 }
 @media screen and (max-width: 1148px) {
     .about{
-        padding: 5rem 10rem;
+        padding: 4rem 10rem;
     }
 }
 @media screen and (max-width: 900px) {
 
     .about{
-        padding: 0rem 5rem;
+        padding: 4rem 5rem;
         height: fit-content
     }
     .box{
@@ -152,7 +153,7 @@
         font-weight: 600;
     }
     .about{
-        padding: 0rem 1rem;
+        padding: 4rem 1rem;
         
     }
     

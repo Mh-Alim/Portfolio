@@ -3,6 +3,7 @@ import "./FrontPageContent.css"
 import Github from "../../svgs/Github"
 import LinkedIn from "../../svgs/LinkedIn"
 import Icon from "../../svgs/icon"
+import { HashLink } from 'react-router-hash-link'
 
 const FrontPageContent = () => {
   return (
@@ -16,13 +17,21 @@ const FrontPageContent = () => {
           {/* Hi There, I’m Alim and I am <span className='green'>Fullstack Web Developer</span>. It's been 1 years, I am learning Web Developemnt. Currently I am doing my graduation in Electrical Engineering, Although I am doing my graduation in Electrical Engineering but because of my interest I learnt Web Development and developed many websites */}
           <div className="icons_outer">
             <div className="icons">
-              <p className='cursor hover'><Github /></p> <span className='space'></span>
-              <p className='cursor hover'><LinkedIn /></p>
+              <p className='cursor hover'><Github Link="https://github.com/Mh-Alim" /></p> <span className='space'></span>
+              <p className='cursor hover'><LinkedIn Link="https://www.linkedin.com/in/alim-khan-109165204/" /></p>
             </div>
-            <div className="res hover"><span style={{marginRight:"0.3rem"}}>Resume</span><Icon /> </div>
+            <a rel='noreferrer' href="https://drive.google.com/file/d/1Te9oswon94CNpu9ntchJdEYj1Baufc2q/view" target="_blank"><div className="res hover"><span style={{marginRight:"0.3rem"}}>Resume</span><Icon /> </div></a>
           </div>
 
         </div>
+
+        <HashLink smooth to="#aboutme">
+          <div className="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </HashLink>
     </div>
   )
 }
