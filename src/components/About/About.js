@@ -1,6 +1,5 @@
 import React from 'react'
 import "./About.css"
-import profileImg from "../../imgs/developer_logo.png"
 
 const About = () => {
   // My interest in web development started back in 2021 (1st year of college)

@@ -20,7 +20,7 @@ const FrontPageContent = () => {
               <p className='cursor hover'><Github Link="https://github.com/Mh-Alim" /></p> <span className='space'></span>
               <p className='cursor hover'><LinkedIn Link="https://www.linkedin.com/in/alim-khan-109165204/" /></p>
             </div>
-            <a rel='noreferrer' href="https://drive.google.com/file/d/1Te9oswon94CNpu9ntchJdEYj1Baufc2q/view" target="_blank"><div className="res hover"><span style={{marginRight:"0.3rem"}}>Resume</span><Icon /> </div></a>
+           <div className="res hover"> <a rel='noreferrer' href="https://drive.google.com/file/d/1Te9oswon94CNpu9ntchJdEYj1Baufc2q/view" target="_blank"><span style={{marginRight:"0.3rem",color:"var(--slate)"}}>Resume</span></a><Icon Link="https://drive.google.com/file/d/1Te9oswon94CNpu9ntchJdEYj1Baufc2q/view"  /> </div>
           </div>
 
         </div>

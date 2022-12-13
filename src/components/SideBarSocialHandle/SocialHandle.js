@@ -10,10 +10,10 @@ const SocialHandle = () => {
     // https://github.com/Mh-Alim
         <div className="socialNavbar">
 
-          <a className = "svgs"  href= "https://github.com/Mh-Alim" target="_blank" rel="noreferrer">  <Github/></a>
-          <a className = "svgs"  href="https://www.instagram.com/alimkhan6470/" target="_blank" rel="noreferrer"><Insta /></a>
-          <a className = "svgs"  href="https://twitter.com/AlimKha22614831" target="_blank" rel="noreferrer"><Twitter /></a>
-          <a className = "svgs"  href="https://www.linkedin.com/in/alim-khan-109165204/" target="_blank" rel="noreferrer"><LinkedIn/></a>
+          <p className = "svgs"><Github Link= "https://github.com/Mh-Alim"/></p>
+          <p className = "svgs"><Insta Link="https://www.instagram.com/alimkhan6470/"/></p>
+          <p className = "svgs"><Twitter Link="https://twitter.com/AlimKha22614831" /></p>
+          <p className = "svgs"><LinkedIn Link="https://www.linkedin.com/in/alim-khan-109165204/"/></p>
           <p id='vline'></p>
           
         </div>

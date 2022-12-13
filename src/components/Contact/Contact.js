@@ -14,15 +14,15 @@ const Contact = () => {
           <div className="contact_content_forms">
               <form action="" method='POST' className='input-icons'>
                   <div className='input_element'>
-                      <i class="fa fa-user icon"></i>
+                      <i className="fa fa-user icon"></i>
                       <input type="text" name='name' id='name' placeholder='Your name'/>
                   </div>
                   <div className='input_element'>
-                      <i class="fa fa-envelope icon"></i>
+                      <i className="fa fa-envelope icon"></i>
                       <input type="email" name='email' id='email' placeholder='Email'/>
                   </div>
                   <div className='input_element'>
-                      <i class="fa fa-comment" aria-hidden="true"></i>
+                      <i className="fa fa-comment" aria-hidden="true"></i>
                       <input type="text" name='subject' id='subject' placeholder='Subject'/>
                   </div>
                   <div className='input_element'>
