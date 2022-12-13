@@ -54,6 +54,8 @@
     margin-right: 2rem;
     margin-top: -1rem;
     display: none;
+    outline: none;
+    background: var(--navy);
 }
 
 .green{
@@ -147,4 +149,9 @@
         margin: 3rem 0;
         padding: 0.5rem 0.5rem;
     }
+}
+
+.is-active{
+    outline: none;
+    background: transparent;
 }
